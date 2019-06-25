@@ -1,6 +1,6 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Which PWD
-      shell: pwd
+    - name: Create File
+      shell: touch HelloWorld
 
